@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Trunk + roots as one unified shape -->
+  <path d="M220,240 Q215,300 210,360 Q205,400 180,440 Q160,470 120,490 L140,500 Q170,485 190,460 Q200,445 205,430 L210,470 Q215,490 220,500 L295,500 Q300,490 305,470 L310,430 Q315,445 325,460 Q345,485 375,500 L395,490 Q355,470 335,440 Q310,400 305,360 Q300,300 295,240 Z" fill="#6b4226" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Bark texture -->
+  <path d="M240,290 Q243,340 240,400" stroke="#4a2e15" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M270,280 Q267,330 272,390" stroke="#4a2e15" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M255,320 Q253,370 256,420" stroke="#4a2e15" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M230,350 Q228,380 232,410" stroke="#4a2e15" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M280,340 Q282,370 278,405" stroke="#4a2e15" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Left branch -->
+  <path d="M230,260 Q180,230 140,235 Q120,238 110,232" stroke="#6b4226" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Right branch -->
+  <path d="M285,260 Q335,230 375,235 Q395,238 405,232" stroke="#6b4226" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Upper left branch -->
+  <path d="M240,220 Q200,195 165,185" stroke="#6b4226" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Upper right branch -->
+  <path d="M275,220 Q315,195 350,185" stroke="#6b4226" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Canopy — dark green base -->
+  <path d="M256,35 Q130,45 80,145 Q55,210 95,270 Q120,305 175,295 Q155,320 168,340 Q195,350 225,315 Q240,345 256,335 Q272,345 290,315 Q320,350 348,340 Q360,320 340,295 Q395,305 420,270 Q460,210 435,145 Q385,45 256,35 Z" fill="#2d6b1e" stroke="#1a1a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Canopy — lighter green -->
+  <path d="M256,58 Q160,68 120,145 Q100,195 135,248 Q165,278 210,260 Q198,282 212,298 Q240,305 256,278 Q272,305 303,298 Q317,282 305,260 Q350,278 380,248 Q415,195 395,145 Q355,68 256,58 Z" fill="#3a8a24"/>
+
+  <!-- Canopy — teal magic patches -->
+  <path d="M175,115 Q200,95 228,108 Q235,130 215,148 Q190,142 175,115 Z" fill="#4dd9d0" opacity="0.5"/>
+  <path d="M295,105 Q325,90 348,115 Q342,142 318,145 Q292,132 295,105 Z" fill="#4dd9d0" opacity="0.5"/>
+  <path d="M235,165 Q258,148 282,165 Q276,192 256,192 Q236,186 235,165 Z" fill="#4dd9d0" opacity="0.45"/>
+  <path d="M142,195 Q170,178 192,200 Q182,222 160,220 Q138,212 142,195 Z" fill="#4dd9d0" opacity="0.4"/>
+  <path d="M325,190 Q352,175 370,200 Q358,222 338,220 Q318,210 325,190 Z" fill="#4dd9d0" opacity="0.4"/>
+  <path d="M205,240 Q228,225 248,242 Q240,262 222,258 Q205,252 205,240 Z" fill="#4dd9d0" opacity="0.35"/>
+  <path d="M268,240 Q290,225 308,242 Q300,262 282,258 Q265,252 268,240 Z" fill="#4dd9d0" opacity="0.35"/>
+
+  <!-- 4-pointed crystal sparkles -->
+  <!-- Large right -->
+  <path d="M408,148 L418,170 L440,180 L418,190 L408,212 L398,190 L376,180 L398,170 Z" fill="#4dd9d0" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M408,162 L413,174 L425,180 L413,186 L408,198 L403,186 L391,180 L403,174 Z" fill="#7ef0ea"/>
+
+  <!-- Large left -->
+  <path d="M92,158 L102,178 L122,188 L102,198 L92,218 L82,198 L62,188 L82,178 Z" fill="#4dd9d0" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M92,170 L97,182 L109,188 L97,194 L92,206 L87,194 L75,188 L87,182 Z" fill="#7ef0ea"/>
+
+  <!-- Medium top-right -->
+  <path d="M320,52 L327,68 L343,75 L327,82 L320,98 L313,82 L297,75 L313,68 Z" fill="#4dd9d0" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M320,62 L324,71 L333,75 L324,79 L320,88 L316,79 L307,75 L316,71 Z" fill="#7ef0ea"/>
+
+  <!-- Small top-left -->
+  <path d="M150,72 L155,84 L167,89 L155,94 L150,106 L145,94 L133,89 L145,84 Z" fill="#4dd9d0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M150,79 L153,86 L160,89 L153,92 L150,99 L147,92 L140,89 L147,86 Z" fill="#7ef0ea"/>
+
+  <!-- Small lower-right -->
+  <path d="M388,282 L393,294 L405,299 L393,304 L388,316 L383,304 L371,299 L383,294 Z" fill="#4dd9d0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M388,289 L391,296 L398,299 L391,302 L388,309 L385,302 L378,299 L385,296 Z" fill="#7ef0ea"/>
+
+  <!-- Floating sparkle dots -->
+  <circle cx="125" cy="125" r="4" fill="#7ef0ea" opacity="0.8"/>
+  <circle cx="380" cy="115" r="3.5" fill="#7ef0ea" opacity="0.75"/>
+  <circle cx="256" cy="48" r="3" fill="#7ef0ea" opacity="0.7"/>
+  <circle cx="430" cy="245" r="3" fill="#7ef0ea" opacity="0.6"/>
+  <circle cx="82" cy="255" r="3" fill="#7ef0ea" opacity="0.6"/>
+  <circle cx="195" cy="68" r="2.5" fill="#7ef0ea" opacity="0.65"/>
+
+  <!-- Magical glow where canopy meets trunk -->
+  <ellipse cx="257" cy="258" rx="35" ry="12" fill="#4dd9d0" opacity="0.2"/>
+</svg>
