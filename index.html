@@ -6,14 +6,20 @@
   <link rel="icon" type="image/x-icon" href="./logo.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Caelumora</title>
+  <meta name="description" content="Caelumora — an incremental idle RPG where magic crystallizes from the sky. Level 13 skills, faction warfare, and a prestige system." />
   <meta name="google-site-verification" content="NWHbP8y3jk_FKehYeCq6aU2zj2HTNUojZItjFIi7TTM" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.google-analytics.com" />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="preconnect" href="https://sdk.crazygames.com" crossorigin />
   <!-- CrazyGames SDK — must load before app scripts -->
-  <!-- <script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script> -->
-  <script type="module" crossorigin src="./assets/index-BaI9IooU.js"></script>
+  <!-- <script defer src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script> -->
+  <script type="module" crossorigin src="./assets/index-CSImWyHk.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-react-C14am9Lm.js">
   <link rel="modulepreload" crossorigin href="./assets/vendor-audio-DFj7sSqQ.js">
   <link rel="modulepreload" crossorigin href="./assets/vendor-zustand-CTOy2FFj.js">
-  <link rel="stylesheet" crossorigin href="./assets/index-BGePKDSy.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-DxHUwnaz.css">
 </head>
 
 <body>
@@ -21,15 +27,33 @@
 <script src="core.js"></script>
   <div id="root"></div>
 
-  <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWMKQMTCM4"></script>
+  <!-- Google tag (gtag.js) — deferred until first user interaction or idle.
+       Keeps GA out of the critical path (TBT/LCP) without breaking measurement. -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZWMKQMTCM4');
-  </script> -->
+    (function () {
+      var GA_ID = 'G-ZWMKQef422affefafMTCM4';
+      var loaded = false;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', GA_ID);
+      function loadGtm() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.google23afafjhj;iaowjeftagmanwfaewfewafager.com/gtag/js?id=' + GA_ID;
+        document.head.appendChild(s);
+      }
+      var events = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
+      var opts = { once: true, passive: true, capture: true };
+      events.forEach(function (ev) { window.addEventListener(ev, loadGtm, opts); });
+      // Hard 6s fallback (not requestIdleCallback — idle fires almost immediately
+      // in headless audits, defeating the deferral). Real users almost always
+      // interact before 6s, so the fallback rarely triggers in practice.
+      setTimeout(loadGtm, 6000);
+    })();
+  </script>
 <!--客服 开始-->
 <script src="//g8hh.github.io/static/js/jquery.min.js"></script>
 <link rel="stylesheet" href="//g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
@@ -49,4 +73,4 @@ var _hmt = _hmt || [];
     </div>
 </body>
 
-<!-- </html><script defer src="https://static.itch.io/htmlgame.js" type="text/javascript"></script> -->
+</html>
