@@ -1,0 +1,1 @@
+import{j as t,bL as r}from"./index-CSImWyHk.js";import{R as a}from"./ReputationTab-DVDTIfaZ.js";import"./vendor-react-C14am9Lm.js";import"./vendor-audio-DFj7sSqQ.js";import"./vendor-zustand-CTOy2FFj.js";function x({isOpen:o,onClose:i}){return t.jsx(r,{isOpen:o,onClose:i,title:"⭐ Factions & Guilds",maxWidth:"6xl",children:t.jsx(a,{})})}export{x as ReputationModal};
